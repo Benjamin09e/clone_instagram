@@ -16,7 +16,7 @@ const Login = ({setAuth}) => {
 
             <form action="#" className="signup">
                   <div className="field">
-                     <input type="text" placeholder="Email Address" required />
+                     <input type="text" placeholder="Num. téléphone, nom d'utilisateur ou e-mail" required />
                   </div>
                   <div className="field">
                      <input type="password" placeholder="Password" required />
@@ -25,13 +25,12 @@ const Login = ({setAuth}) => {
                      <input className="btn-layer" type="submit" value="Se Connecter" />
                   </div>
             </form>
+            <hr />
 
-          <div className="space-btn">
-            <p className='sp-text'> <AiFillFacebook/> Se connecter avec Facebook</p>
-          </div>
-          <div className="space-btn">
-            <NavLink to="/forgetpass"><p>Mot de passe oublié ?</p></NavLink>
-          </div>
+            <div className="space-btn">
+              <p className='sp-text'> <AiFillFacebook/> Se connecter avec Facebook</p>
+              <NavLink  className='nav-link' to="/forgetpass"><p className='style-link'>Mot de passe oublié ?</p></NavLink>
+            </div>
         </div>
       </div>
       <div className='container-card-child'>

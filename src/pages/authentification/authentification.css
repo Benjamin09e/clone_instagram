@@ -38,29 +38,64 @@
 }
 
 /* ------------ Input -------------------------------- */
-input{
-    margin: 0.4rem 0;
-    padding: 0.5rem 0.5rem;
-    border: 1px solid black;
-    background: #eee;
-    border-radius: 5px;
+
+input {
+  margin: 0.4rem 0;
+  padding: 0.5rem 0;
+  border: 1px solid black;
+  background: #eee;
+  border-radius: 5px;
 }
 
-.form-group {
-  margin-bottom: 1rem;
+
+
+.field input {
+  width: 100%;
+  
 }
 
-.dp-input{
-  display: flex;
-  flex-direction: column;
+.btn-layer{
+  background-color: #1877f2;
+  border: none;
+  border-radius: 8px;
 }
 
 /* ------------ Input -------------------------------- */
+
+/* ------------ hr -------------------------------- */
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin-top: 5%;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  content: "ou";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+/* ------------ hr -------------------------------- */
 
 .space-btn {
   margin-top: 25px;
 }
 
+.style-link {
+  padding-top: 5%;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* ---------- button Color -------------------------- */
 .btn-color {
   background-color: #1877f2;
   text-align: center;
@@ -71,10 +106,13 @@ input{
   color: white;
 }
 
+/* ---------- button Color -------------------------- */
+
 /* ---------- Span Color -------------------------- */
 .sp-color {
   color: #1877f2;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .block {
@@ -86,3 +124,5 @@ input{
   color: #07336d;
   font-weight: bold;
 }
+
+/* ---------- Span Color -------------------------- */
