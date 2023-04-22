@@ -26,11 +26,12 @@ const ForgetPass = () => {
                      <input type="text" placeholder="E-mail, telephone ou nom d'ulitisateur" required />
                   </div>
                   <div className="field btn">
-                     <input className="btn-layer" type="submit" value="Envoyer un lien ou nom d'utilisateur" />
+                    <NavLink to="/forgetpass">
+                      <input className="btn-layer" type="submit" value="Envoyer un lien ou nom d'utilisateur" />
+                    </NavLink>      
                   </div>
             </form>
-            
-
+          
             <div className="space-btn">
               <NavLink  className='nav-link' to="/forgetpass"><p className='style-link'>Vous ne parvenez pas à reintiliser votre mot de passe ?</p></NavLink>
             </div>
