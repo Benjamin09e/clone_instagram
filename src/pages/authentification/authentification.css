@@ -21,6 +21,7 @@
   width: 30%;
   height: max-content;
   border-radius: 3px;
+  padding: 10px 30px;
 }
 
 .container-card-child {
@@ -35,6 +36,8 @@
   width: 30%;
   height: 10vh;
   border-radius: 3px;
+  padding-right:30px;
+  padding-left:30px;
 }
 
 /* ------------ Input -------------------------------- */
@@ -75,7 +78,7 @@ hr {
 
 hr:after {
   background: #fff;
-  content: "ou";
+  content: "OU";
   padding: 0 4px;
   position: relative;
   top: -13px;
