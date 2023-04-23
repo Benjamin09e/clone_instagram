@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { TfiLock } from "react-icons/tfi";
 import "../authentification.css"
 import "../../../components/footer/Footer.css"
 
@@ -10,15 +11,13 @@ const ForgetPass = () => {
       <div className='container-card'>
         <div className="card-content">
             <div className='block'>
-                <h1>Instagram</h1>
+              <TfiLock className='tf-height'/>
                 <p>Problèmes de connexion</p>
-            </div>
-
-            <div>
-                  <p>Entrez votre adresse e-mail, votre numéro de téléphone 
+                <br />
+                <p>Entrez votre adresse e-mail, votre numéro de téléphone 
                     ou votre nom d’utilisateur, et nous vous enverrons un 
                     lien pour récupérer votre compte.
-                  </p>
+                </p>    
             </div>
 
             <form action="#" className="signup">
@@ -37,7 +36,7 @@ const ForgetPass = () => {
             </div>
             <div className="space-btn">
             <hr />
-            <p>Créer un compte</p>
+            <NavLink  className='nav-link' to="/register"><p className='style-link'>Créer un compte ?</p></NavLink>
           </div>
         </div>
       </div>

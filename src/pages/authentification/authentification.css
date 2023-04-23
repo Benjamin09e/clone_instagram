@@ -4,11 +4,6 @@
   background: #fff;
 }
 
-.container {
-  width: 100%;
-  height: max-content;
-}
-
 .container-card {
   margin-top: 40px;
   padding-bottom: 40px;
@@ -19,7 +14,7 @@
   display: flex;
   justify-content: center;
   width: 30%;
-  height: max-content;
+
   border-radius: 3px;
   padding: 10px 30px;
 }
@@ -36,8 +31,13 @@
   width: 30%;
   height: 10vh;
   border-radius: 3px;
-  padding-right:30px;
-  padding-left:30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.tf-height {
+  height: 14%;
+  width: 15%;
 }
 
 /* ------------ Input -------------------------------- */
@@ -45,19 +45,16 @@
 input {
   margin: 0.4rem 0;
   padding: 0.5rem 0;
-  border: 1px solid black;
+  border: 1px solid #eee;
   background: #eee;
   border-radius: 5px;
 }
 
-
-
 .field input {
   width: 100%;
-  
 }
 
-.btn-layer{
+.btn-layer {
   background-color: #1877f2;
   border: none;
   border-radius: 8px;

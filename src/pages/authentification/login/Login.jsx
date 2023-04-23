@@ -26,9 +26,10 @@ const Login = ({setAuth}) => {
                   </div>
             </form>
             <hr />
-
             <div className="space-btn">
-              <p className='sp-text'> <AiFillFacebook/> Se connecter avec Facebook</p>
+              <NavLink  className='nav-link' to="#">
+                <p className='sp-text'> <AiFillFacebook/> Se connecter avec Facebook</p>
+              </NavLink>
               <NavLink  className='nav-link' to="/forgetpass"><p className='style-link'>Mot de passe oublié ?</p></NavLink>
             </div>
         </div>
